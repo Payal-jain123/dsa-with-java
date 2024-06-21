@@ -3,8 +3,8 @@ class LeftRotateArray1
 {
  static  void solve(int arr[],int n)
 {
-int temp[]=arr[0];
-for(int i=1;i<n-1;i++)
+int temp=arr[0];
+for(int i=0;i<n-1;i++)
 {
 arr[i]=arr[i+1];
 }
