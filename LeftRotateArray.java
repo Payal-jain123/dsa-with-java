@@ -1,5 +1,5 @@
 import java.util.*;
-class LeftRotateArray1
+class LeftRotateArray
 {
  static  void solve(int arr[],int n)
 {
