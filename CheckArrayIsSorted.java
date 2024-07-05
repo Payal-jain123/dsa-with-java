@@ -1,3 +1,4 @@
+import java.util.*;
 class CheckArrayIsSorted
 {
 public static boolean isSorted(int arr[] , int n)
@@ -11,7 +12,8 @@ return true;
 }
 public static void main(String[] args)
 {
-int arr[]={1,2,4,3,6,5},n=6;
+int n=6;
+int arr[]={1,2,4,6,9,11};
 System.out.println(isSorted(arr,n));
 }
 }
