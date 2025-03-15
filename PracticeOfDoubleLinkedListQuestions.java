@@ -1,5 +1,4 @@
 //import java.util.Stack;//statck use in reverse DLL only
-
 class Node{
 int data;
 Node next;
@@ -114,11 +113,11 @@ return newHead;
 }*/
 
 //insert head after head in DLL
-static Node insertAfterHead(Node head,int val){
+/*static Node insertAfterHead(Node head,int val){
 Node newHead=new Node(val,head.next,head);
 head.next=newHead;
 return head;
-}
+}*/
 
 //insert tail before tail in DLL
 /*static Node insertBeforetail(Node head,int val){
@@ -238,7 +237,7 @@ return prev.back;
 }*/
 
 //Delete all occurences of key
-static Node deleteOccKey(Node head,int key){
+/*static Node deleteOccKey(Node head,int key){
 Node temp=head;
 while(temp!=null){
 if(temp.data==key){
@@ -260,7 +259,7 @@ temp=temp.next;
 }
 }
 return head;
-}
+}*/
 
 //remove duplicates from sorted DLL
 static Node removeDup(Node head){
@@ -278,7 +277,6 @@ temp=temp.next;
 }
 return head;
 }
-
 //main method
 public static void main(String[] args){
 int []arr={1,1,2,2,2,3,4,5,5,5,6};
@@ -302,4 +300,3 @@ head=removeDup(head);
 printDLL(head);
 }
 }
-
